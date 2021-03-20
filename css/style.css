@@ -1,0 +1,43 @@
+.container{
+  width: 500px;
+  margin: 50px auto;
+}
+.container input{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.container input:focus,.container input:hover{
+  border: 1px solid skyblue;
+  outline: 0;
+}
+
+.filter-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin:20px 0 0;
+}
+
+.filter-list li{
+  border: 1px solid #eee;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.filter-list img{
+  width: 230px;
+  height: 112.5px;
+}
+
+.filter-list p{
+  margin:0;
+  font-size: 12px;
+}
+
+.hidden{
+  display: none;
+}
