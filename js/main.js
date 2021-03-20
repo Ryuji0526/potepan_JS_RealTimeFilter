@@ -51,7 +51,7 @@
 
   
   function check(value,text,Num){
-    if(text.indexOf(value) === -1){
+    if(text.indexOf(value.toLowerCase()) === -1){
       create[Num].addHidden();
     }else{
       create[Num].removeHidden();
